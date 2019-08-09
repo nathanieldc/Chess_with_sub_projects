@@ -1,9 +1,12 @@
+require_relative "piece.rb"
 class Rook < Piece
     def initialize(color, board, pos)
       super  
     end
 
     def symbol
+      :R
+    end
 
     protected 
 
